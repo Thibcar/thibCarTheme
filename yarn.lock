@@ -4324,6 +4324,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
+knacss@^7.0.7:
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/knacss/-/knacss-7.0.7.tgz#3c2bf6c7ee90fb0ccabbe5382b7af1800d88f086"
+
 known-css-properties@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.5.0.tgz#6ff66943ed4a5b55657ee095779a91f4536f8084"

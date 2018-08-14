@@ -126,3 +126,13 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+/**
+ * Add Google Fonts
+ */
+
+ function add_google_fonts() {
+     wp_enqueue_style ( 'google-fonts', 'https://fonts.googleapis.com/css?family=Poppins|Source+Sans+Pro" rel="stylesheet', false );
+ }
+
+ add_action( 'wp_enqueue_scripts', 'add_google_fonts');
